@@ -1,5 +1,6 @@
 # Setup-Script-FPP-Player-3D
 
+```
 extends CharacterBody3D
 
 @export var SPEED: float = 5.0
@@ -51,3 +52,7 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
+
+
+
+```
